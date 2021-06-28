@@ -1,0 +1,36 @@
+.question {
+    padding: 40px 20%;
+}
+
+.question__number {
+    font-size: 24px;
+    color: #fff;
+    display: table;
+    margin: 0 auto 20px;
+}
+
+.question__wrapper {
+    background-color: #007ed2;
+    height: 300px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.question__text {
+    font-size: 36px;
+    color: #fff;
+}
+
+.question__answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
